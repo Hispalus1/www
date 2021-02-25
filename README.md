@@ -1,2 +1,2 @@
-#World Wide Web
-Výuková stránka
+# World Wide Web
+Výuková stránka o WWW
