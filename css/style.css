@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+header {
+    background-color: rgb(5, 71, 71);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.otazka {
+    color: rgb(21, 67, 88);
+    background-color: #aaa;
+    padding: 1em;
+    font: 1.2em ;
+    margin: 1em 0;
+}
+.odpoved{
+    border-left: 10px solid #aaa;
+}
