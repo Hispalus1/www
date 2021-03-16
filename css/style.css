@@ -17,10 +17,29 @@ main {
 .otazka {
     color: rgb(21, 67, 88);
     background-color: #aaa;
-    padding: 1em;
+    padding: 2em;
     font: 1.2em ;
-    margin: 1em 0;
+    margin: 2em 0;
 }
 .odpoved{
     border-left: 10px solid #aaa;
+    padding-left: 1cm;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td, th {
+    padding: 10px 50px;
+}
+th {
+    background-color: darkslategray;
+    color: #eee
+}
+ol#search {
+    list-style-type: upper-roman;
+}
+ol#search ul{
+    list-style-type: square;
 }
