@@ -45,6 +45,7 @@
         </p>
       </section>
       <section>
+        <!-- 1. otázka -->
         <h2>WWW - otázky a odpovědi</h2>
         <h3>Webový server</h3>
         <div class="otazka">1. Jakou roli plní webový server? Uveďte příklady webových serverů.</div>
@@ -57,12 +58,139 @@
             <li>NGINX</li>
             <li>Microsoft Internet Information Server</li>
           </ul>
+          <img src="img/apach.png" alt="600" height="300">
+        </div>
+        <!-- 2. otázka -->
+        <h3>Webové klienty</h3>
+        <div class="otazka">2.Jak se nazývá program označovaný jako webový klient? Co je jeho úkolem? Vyjmenujte nejpoužívanější webové klienty.</div>
+        <div class="odpoved">
+          <p>Klient je program, který komunikuje s uživatelem a na základě jeho pokynů se obrací na jednotlivé servery, získává od nich data a zobrazuje je.</p>
+          <h4>Nejběznějšími klienty jsou:</h4>
+          <ul>
+            <li>Mozilla Firefox</li>
+            <li>Opera</li>
+            <li>Safari</li>
+            <li>Google chrome</li>
+            <li>Microsoft Edge</li>
+            <li>Internet Explorer</li>
+          </ul>
+          <img src="img/browsery.jpg" alt="500" height="400">
+        </div>
+        <!-- 3. otázka -->
+        <h3>Komunikace</h3>
+        <div class="otazka">3.Jak probíhá komunikace mezi webovým klientem a webovým serverem?</div>
+        <div class="odpoved">
+          <p>Komunikace probíhá přes pravidla, kterým se říka protokoly. Pro přenos webových stránek se používá protokl <abbr title="Hypertext Transfer Protocol">HTTP</abbr> a <abbr title="HyperText Markup Language">HTML</abbr> (ten definuje formát WWW stránek, které server vrací klientovi</p>
+          <img src="img/funkce.png" alt="">
+        </div>
+        <!-- 4. otázka -->
+        <h3>HTTP</h3>
+        <div class="otazka">4.Co je HTTP?</div>
+        <div class="odpoved">
+          <p><abbr title="Hypertext Transfer Protocol">HTTP</abbr> je jednoduchý aplikační protokol s komunikací charakteru požadavek – odpověď. Žádosti mají formu jednoduchých příkazů a mohou být upřesňovány pomocí různých parametrů, tzv. <strong>hlaviček</strong>. ​
+          Odpovědi mají číselný charakter a nejčastěji obsahují i WWW stránku, kterou klient požadoval. </p>
+          <img src="img/ajaj.png" alt="300" height="100">
+        </div>
+        <!-- 5. otázka -->
+        <h3>Stavové kódy HTTP</h3>
+        <div class="otazka">5. Vypište do tabulky stavové kódy HTTP.</div>
+        <div class="odpoved">
+         <table>
+           <caption>Stavové kód odpovědi serveru</caption>
+          <tbody><tr>
+            <th>Kód</th>
+            <th>Typ zprávy</th>  
+          </tr>   
+          <tr>
+            <td>1..</td>
+            <td>informační zpráva</td>
+          </tr>
+          <tr>
+            <td>2..</td>
+            <td>úspěšné vyřízení požadavku</td>
+          </tr>
+          <tr>
+            <td>3..</td>
+            <td>problémy spojené s přesměrováním​</td>
+          </tr>
+          <tr>
+            <td>4..</td>
+            <td>chyby související s vyřízením požadavku (stránka není dostupná, apod.)​</td>
+          </tr>
+          <tr>
+            <td>5..</td>
+            <td>interní chyby serveru</td>
+          </tr>
+         </tbody></table>
+        </div>
+        <!-- 6. otázka -->
+        <h3>HTTPS</h3>
+        <div class="otazka">6.Proč se stále častěji využívá protokol HTTPS?</div>
+        <div class="odpoved">
+          <p>Samotný protokol <abbr title="Hypertext Transfer Protocol">HTTP</abbr> neumožňuje šifrování ani zabezpečení integrity dat; to nabízí bezpečnější varianta označováná jako <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr>.
+            V současné době je používán i pro přenos dalších informací. Pomocí rozšíření <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> umí přenášet jakýkoli soubor (podobně jako e-mail), používá se společně s formátem <abbr title="Extensible Markup Language">XML</abbr> pro tzv.
+             Webové služby (spouštění vzdálených aplikací) a pomocí aplikačních bran zpřístupňuje i další protokoly, jako je např. <abbr title="Transmission control protocol">FTP</abbr> nebo <abbr title="Simple Mail Transfer Protocol">SMTP</abbr>.​</p>
+             <h4>Souhrn výhod</h4>
+             <ul>
+               <li>Možnost oveření identity</li>
+               <li>Důvěrnost přenášených dat</li>
+               <li>Integrita obsahu</li>
+             </ul>
+             <img src="img/bezpecne.jpeg" alt="500" height="200">
+          
+        </div>
+        <!-- 7. otázka -->
+        <h3>URL</h3>
+        <div class="otazka">7.Vysvětlete zkratku URL a připojte pět různých příkladů URL odkazů.</div>
+        <div class="odpoved">
+          <p><abbr title="Uniform Resource Locator">URL</abbr> je řetězec znaků s definovanou strukturou, který slouží k přesné specifikaci umístění zdrojů informací (ve smyslu dokument nebo služba) na Internetu. ​
+            <abbr title="Uniform Resource Locator">URL</abbr> definuje doménovou adresu serveru, umístění zdroje na serveru a protokol, kterým je možné zdroj zpřístupnit.​</p>
+          
+          
+        </div>
+        <!-- 8. otázka -->
+        <h3>Cookies</h3>
+        <div class="otazka">8.Co jsou a k čemu slouží tzv. cookies? Připojte obrázek ukazující uložená cookies k některé internetové stránce.</div>
+        <div class="odpoved">
+          Jako cookie (anglicky koláček, oplatka, sušenka) se v protokolu <abbr title="Hypertext Transfer Protocol">HTTP</abbr> označuje malé množství dat, která WWW server pošle prohlížeči a ten je uloží na počítači uživatele. Při každé další návštěvě téhož serveru pak prohlížeč tato data posílá zpět serveru. ​
+          Cookies běžně slouží k rozlišování jednotlivých uživatelů, ukládá se do nich obsah „nákupního košíku“ v elektronických obchodech, uživatelské předvolby apod.​
+          Funkce cookies je definována pomocí <abbr title="Hypertext Transfer Protocol">HTTP</abbr> hlavičky Set-Cookie, která bývá posílána v odpovědi serveru a obsahuje jednak data cookie (omezená prohlížečem, vyžadována je podpora alespoň pro 4096 byte), jednak informace o době platnosti, adresář na serveru, pro který cookie platí apod. 
+          <p><img src="img/uh.png" alt="200" height="500"></p>
+          <figcaption>Cookies škola online</figcaption>
+        </div>
+        <!-- 9. otázka -->
+        <h3>Internetový vyhledávač</h3>
+        <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových vyhledávačů.</div>
+        <div class="odpoved">
+          <ol id="search">
+            <li>Prohledání webových stránek. Pro prohledání webových stránek má internetový vyhledávač automatický program, tzv. vyhledávací robot (crawler, bot, nebo též spider – <i>„pavouk“</i>), který prochází celý webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst (odkazů), jejichž obsah si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu, aby se na ni již podruhé nevracel. Z obsahu stažené stránky vybere seznam všech obsažených odkazů a opět všechny odkazy navštíví. Cyklus návštěvy, sesbírání odkazů a dalších návštěv se stále opakuje. Robot se na navštívené stránky vrací v pravidelných intervalech, aby zjistil, zda se na stránce neobjevily nějaké nové informace. Z principu práce vyhledávače vyplývá, že nikdy nemá úplně aktuální informace, ale prezentuje je se zpožděním.
+            </li>
+            <li>Indexování. Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby bylo možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň je nutné vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou hodnotou (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu). Pro výpočet relevance se používají nejrůznější algoritmy, které jsou založeny na nejrůznějších znacích stránek a různých úhlech analýzy jejich obsahu:
+              <ul>
+                <li>Váha slov. Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu. Váha slov se zvyšuje, je-li slovo v titulku stránky, nadpisu nebo blíže k začátku stránky, případně se na stránce opakuje. Váhu slov lze zneužít vkládáním atraktivních slov do obsahu stránky bez ohledu na její skutečný obsah nebo prostým opakováním slov. Vyhledávač se brání penalizací (snížením kvality) podezřelých stránek.
+                </li>
+                <li>Atraktivita stránky. Stránka má vyšší hodnocení, když na ni odkazuje více jiných stránek, protože zřejmě obsahuje zajímavé informace. Atraktivitu lze zneužít vytvářením falešných stránek, které odkazují na stránku, která má získat vyšší hodnocení. Vyhledávač se brání sledováním podezřelého náhlého hromadění odkazů.
+                </li>
+              </ul>
+            </li>
+            <li>Vyhledávání. Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel získá po zadání hledaných slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší přehlednost se zobrazuje kromě odkazu ještě titulek stránky, a okolí nalezených slov.
+            </li>
+          </ol>
+          <img src="img/princip.png" alt="">
+        </div>
+        <!-- 10. otázka -->
+        <h3>HTML</h3>
+        <div class="otazka">10.Vysvětlete zkratku HTML a pojem hypertext.</div>
+        <div class="odpoved">
+          <p>Hypertext Markup Language (zkratka HTML) je v informatice název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými odkazy.</p>
+          <p>Hypertext je způsob strukturování textu, který není lineární. Obsahuje tzv. hyperlinky neboli česky (hypertextové) odkazy. Rovněž odkazuje i na jiné informace v systému a umožňuje snadné publikování, údržbu a vyhledávání těchto informací.</p>
+          <img src="img/html1.png" alt="150" height="300">
         </div>
       </section>
     </main>
     <footer>
       <hr />
-      <p>&copy; 2021 - IT1</p>
+      <p>&copy; 2021 - IT1 - Lukáš Hrňa</p>
     </footer>
   </body>
 </html>
