@@ -1,34 +1,40 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(195, 232, 236);
+    background-position: center;
+    box-sizing: border-box;   
 }
 
 header {
-    background-color: rgb(5, 71, 71);
+    background-color: rgb(5, 20, 71);
     padding: 20px;
     color: white;
     text-align: center;
 }
 
 main {
+    background-color: rgb(160, 202, 238);
     width: 1200px;
-    margin: 0 auto;
+    margin:50px auto; /*vnější okraj*/
+    border: 3px solid black; /*ohraničení*/
+    padding: 10px; /*vnitřní odsazení*/
 }
 
 .otazka {
     color: rgb(21, 67, 88);
-    background-color: #ddd;
+    background-color: rgb(129, 136, 158);
     padding: 1em;
     font-size: 1.2em;
     margin: 1em 0;
 }
 
 .odpoved {
-    border-left: 10px solid #aaa;
+    border-left: 10px solid rgb(156, 159, 196);
     padding-left: 20px;
 }
 
 table, td, th {
-    border-width: 1px solid black;
+    border-width: 5px solid rgb(3, 5, 15);
     border-collapse: collapse;
 }
 
@@ -37,15 +43,15 @@ td, th {
 }
 
 th {
-    background-color: darkslategray;
-    color: rgb(238, 238, 238);
+    background-color: rgb(4, 10, 10);
+    color: rgb(150, 33, 33);
 }
 
 
 caption {
     font-size: 1.2em;
     background-color: rgb(48, 31, 109);
-    color: #eee;
+    color: rgb(3, 2, 2);
     padding: 10px;
 }
 
@@ -56,3 +62,19 @@ ol#search {
 ol#search ul {
     list-style-type: square;
 }
+.menu-bar {
+    border: 5px outset red;
+    background-color:lightblue; 
+    text-align: center;
+    }
+    .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+        color:seashell;
+    
+    }
+    .menu-bar ul li {
+        width: 120px;
+        margin: 15px;
+        padding: 15px
+    }
